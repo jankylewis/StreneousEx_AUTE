@@ -92,5 +92,6 @@
 	<classpathentry kind="lib" path="G:/SELENIUM/LIBRARY/4.00.rc-1/lib/opentelemetry-semconv-1.5.0-alpha.jar"/>
 	<classpathentry kind="lib" path="G:/SELENIUM/LIBRARY/4.00.rc-1/lib/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="G:/SELENIUM/LIBRARY/4.00.rc-1/lib/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
