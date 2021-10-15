@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="1" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-16T00:01:34 ICT" name="Suite" finished-at="2021-10-16T00:01:34 ICT" duration-ms="53">
+    <groups>
+      <group name="001">
+        <method signature="TCs_HandleTableFunctions.getTotalRowNumberTest()[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getTotalRowNumberTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- 001 -->
+      <group name="002">
+        <method signature="TCs_HandleTableFunctions.getTotalColumnNumberTest()[pri:-1, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getTotalColumnNumberTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- 002 -->
+      <group name="Input Value and Get the Number of Row">
+        <method signature="TCs_HandleTableFunctions.getRowNumberByValueTest()[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getRowNumberByValueTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- Input Value and Get the Number of Row -->
+      <group name="Total Number of Row">
+        <method signature="TCs_HandleTableFunctions.getTotalRowNumberTest()[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getTotalRowNumberTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- Total Number of Row -->
+      <group name="003">
+        <method signature="TCs_HandleTableFunctions.getRowNumberByValueTest()[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getRowNumberByValueTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- 003 -->
+      <group name="004">
+        <method signature="TCs_HandleTableFunctions.getTableCellValueTest()[pri:1, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getTableCellValueTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- 004 -->
+      <group name="005">
+        <method signature="TCs_HandleTableFunctions.checkIfItemIsAppeared()[pri:2, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="checkIfItemIsAppeared" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- 005 -->
+      <group name="Input Row, Number and Get Value">
+        <method signature="TCs_HandleTableFunctions.getTableCellValueTest()[pri:1, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getTableCellValueTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- Input Row, Number and Get Value -->
+      <group name="Check If Item Is Existed">
+        <method signature="TCs_HandleTableFunctions.checkIfItemIsAppeared()[pri:2, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="checkIfItemIsAppeared" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- Check If Item Is Existed -->
+      <group name="Total Number of Column">
+        <method signature="TCs_HandleTableFunctions.getTotalColumnNumberTest()[pri:-1, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" name="getTotalColumnNumberTest" class="TH_15_10_2021_TODAY.TCs_HandleTableFunctions"/>
+      </group> <!-- Total Number of Column -->
+    </groups>
+    <test started-at="2021-10-16T00:01:34 ICT" name="Test" finished-at="2021-10-16T00:01:34 ICT" duration-ms="53">
+      <class name="TH_15_10_2021_TODAY.TCs_HandleTableFunctions">
+        <test-method is-config="true" signature="testcaseSetUp(java.lang.String,java.lang.String)[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" started-at="2021-10-16T00:01:34 ICT" name="testcaseSetUp" finished-at="1970-01-01T07:00:00 ICT" duration-ms="-1634317294067" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseSetUp -->
+        <test-method signature="getTotalColumnNumberTest()[pri:-1, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" started-at="2021-10-16T00:01:34 ICT" name="getTotalColumnNumberTest" finished-at="2021-10-16T00:01:34 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTotalColumnNumberTest -->
+        <test-method signature="getRowNumberByValueTest()[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" started-at="2021-10-16T00:01:34 ICT" name="getRowNumberByValueTest" finished-at="2021-10-16T00:01:34 ICT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getRowNumberByValueTest() throws java.lang.InterruptedException requires a @DataProvider named : none]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getRowNumberByValueTest() throws java.lang.InterruptedException requires a @DataProvider named : none
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:561)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRowNumberByValueTest -->
+        <test-method signature="getTotalRowNumberTest()[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" started-at="2021-10-16T00:01:34 ICT" name="getTotalRowNumberTest" description="this test scenario will get total number of row of the given page" finished-at="2021-10-16T00:01:34 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTotalRowNumberTest -->
+        <test-method signature="getTableCellValueTest()[pri:1, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" started-at="2021-10-16T00:01:34 ICT" name="getTableCellValueTest" finished-at="2021-10-16T00:01:34 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableCellValueTest -->
+        <test-method signature="checkIfItemIsAppeared()[pri:2, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" started-at="2021-10-16T00:01:34 ICT" name="checkIfItemIsAppeared" finished-at="2021-10-16T00:01:34 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated testcaseSetUp.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfItemIsAppeared -->
+        <test-method is-config="true" signature="testCaseTearDown()[pri:0, instance:TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049]" started-at="2021-10-16T00:01:34 ICT" name="testCaseTearDown" finished-at="1970-01-01T07:00:00 ICT" duration-ms="-1634317294116" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTearDown -->
+      </class> <!-- TH_15_10_2021_TODAY.TCs_HandleTableFunctions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

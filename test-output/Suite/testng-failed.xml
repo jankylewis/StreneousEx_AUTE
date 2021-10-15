@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TH_15_10_2021_TODAY.TCs_HandleTableFunctions">
+        <methods>
+          <include name="getTotalRowNumberTest"/>
+          <include name="checkIfItemIsAppeared"/>
+          <include name="getRowNumberByValueTest"/>
+          <include name="getTableCellValueTest"/>
+          <include name="getTotalColumnNumberTest"/>
+          <include name="testcaseSetUp"/>
+          <include name="testCaseTearDown"/>
+        </methods>
+      </class> <!-- TH_15_10_2021_TODAY.TCs_HandleTableFunctions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
