@@ -55,72 +55,18 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/4</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 16 00:01:34 ICT 2021</td>
+<td>Started on:</td><td>Sat Oct 16 11:58:08 ICT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (53 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28172 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td></td>
+<td>Included groups:</td><td>003 </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TH_15_10_2021_TODAY.TCs_HandleTableFunctions.testcaseSetUp()'><b>testcaseSetUp</b><br>Test class: TH_15_10_2021_TODAY.TCs_HandleTableFunctions</td>
-<td><div><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace538185145", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace538185145'><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>-1634317294</td>
-<td>TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TH_15_10_2021_TODAY.TCs_HandleTableFunctions.testCaseTearDown()'><b>testCaseTearDown</b><br>Test class: TH_15_10_2021_TODAY.TCs_HandleTableFunctions</td>
-<td></td>
-<td>-1634317294</td>
-<td>TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -129,19 +75,68 @@ For more information on native dependency injection please refer to https://test
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getRowNumberByValueTest()'><b>getRowNumberByValueTest</b><br>Test class: TH_15_10_2021_TODAY.TCs_HandleTableFunctions</td>
-<td><div><pre>org.testng.TestNGException: 
-Method public void TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getRowNumberByValueTest() throws java.lang.InterruptedException requires a @DataProvider named : none
+<td title='TH_16_10_2021_TODAY.TCs_Exercise2.findOneFlightTicketTest()'><b>findOneFlightTicketTest</b><br>Test class: TH_16_10_2021_TODAY.TCs_Exercise2</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: Given xpath expression &quot;.//option[@value = &quot;September&quot;]&quot; is invalid: WrongDocumentError: Node cannot be used in a document other than the one in which it was created
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;KOP&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12260, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 69b6c708-2391-4986-99b8-6f2249e270cc
+*** Element info: {Using=xpath, value=.//option[@value = &quot;September&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:280)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at TH_16_10_2021_TODAY.GeneralMethods.selectKeyFromDropDownListStatic(GeneralMethods.java:98)
+	at TH_16_10_2021_TODAY.TCs_Exercise2.findOneFlightTicketTest(TCs_Exercise2.java:145)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1497377679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1497377679'><pre>org.testng.TestNGException: 
-Method public void TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getRowNumberByValueTest() throws java.lang.InterruptedException requires a @DataProvider named : none
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:561)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1121891386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1121891386'><pre>org.openqa.selenium.InvalidSelectorException: Given xpath expression &quot;.//option[@value = &quot;September&quot;]&quot; is invalid: WrongDocumentError: Node cannot be used in a document other than the one in which it was created
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;KOP&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12260, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 69b6c708-2391-4986-99b8-6f2249e270cc
+*** Element info: {Using=xpath, value=.//option[@value = &quot;September&quot;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:280)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at TH_16_10_2021_TODAY.GeneralMethods.selectKeyFromDropDownListStatic(GeneralMethods.java:98)
+	at TH_16_10_2021_TODAY.TCs_Exercise2.findOneFlightTicketTest(TCs_Exercise2.java:145)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -162,148 +157,8 @@ Method public void TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getRowNumberByVa
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getTotalColumnNumberTest()'><b>getTotalColumnNumberTest</b><br>Test class: TH_15_10_2021_TODAY.TCs_HandleTableFunctions</td>
-<td><div><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1855610584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1855610584'><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049</td></tr>
-<tr>
-<td title='TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getTableCellValueTest()'><b>getTableCellValueTest</b><br>Test class: TH_15_10_2021_TODAY.TCs_HandleTableFunctions</td>
-<td><div><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace611520720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace611520720'><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049</td></tr>
-<tr>
-<td title='TH_15_10_2021_TODAY.TCs_HandleTableFunctions.checkIfItemIsAppeared()'><b>checkIfItemIsAppeared</b><br>Test class: TH_15_10_2021_TODAY.TCs_HandleTableFunctions</td>
-<td><div><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace271800170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace271800170'><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049</td></tr>
-<tr>
-<td title='TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getTotalRowNumberTest()'><b>getTotalRowNumberTest</b><br>Test class: TH_15_10_2021_TODAY.TCs_HandleTableFunctions<br>Test method: this test scenario will get total number of row of the given page</td>
-<td><div><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2083999882", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2083999882'><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>TH_15_10_2021_TODAY.TCs_HandleTableFunctions@35aea049</td></tr>
+<td>28</td>
+<td>TH_16_10_2021_TODAY.TCs_Exercise2@76c3e77a</td></tr>
 </table><p>
 </body>
 </html>

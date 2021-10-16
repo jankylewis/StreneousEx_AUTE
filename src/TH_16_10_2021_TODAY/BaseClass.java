@@ -1,4 +1,4 @@
-package TH_15_10_2021_TODAY;
+package TH_16_10_2021_TODAY;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -12,11 +12,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 
 import com.google.errorprone.annotations.Var;
 
-public class AbstractClass {
+public class BaseClass {
 
 	@Var
 	public static JavascriptExecutor javascript;
@@ -27,7 +26,7 @@ public class AbstractClass {
 	
 	public String browserArr[]= {"firefox", "chrome", "opera"};
 	public String brRandom= browserArr[new Random().nextInt(browserArr.length)];
-	String baseURL= "http://demo.guru99.com";
+	String baseURL= "http://demo.guru99.com/test/newtours/index.php";
 	
 	@BeforeTest
 	public void testcaseSetUp(String baseURL, String br) {
@@ -63,5 +62,6 @@ public class AbstractClass {
 		driver.manage().deleteAllCookies();
 		driver.quit();
 	}
+	
 	
 }

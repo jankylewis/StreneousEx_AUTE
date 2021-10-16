@@ -2,18 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="003"/>
+      </run>
+    </groups>
     <classes>
-      <class name="TH_15_10_2021_TODAY.TCs_HandleTableFunctions">
+      <class name="TH_16_10_2021_TODAY.TCs_Exercise2">
         <methods>
-          <include name="getTotalRowNumberTest"/>
-          <include name="checkIfItemIsAppeared"/>
-          <include name="getRowNumberByValueTest"/>
-          <include name="getTableCellValueTest"/>
-          <include name="getTotalColumnNumberTest"/>
-          <include name="testcaseSetUp"/>
-          <include name="testCaseTearDown"/>
+          <include name="findOneFlightTicketTest"/>
         </methods>
-      </class> <!-- TH_15_10_2021_TODAY.TCs_HandleTableFunctions -->
+      </class> <!-- TH_16_10_2021_TODAY.TCs_Exercise2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

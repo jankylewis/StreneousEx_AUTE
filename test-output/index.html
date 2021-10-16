@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>G:\ECLIPSE\workspace\exercises_AUTE\checkIf_testng.xml</span>
+                    <span>G:\ECLIPSE\workspace\exercises_AUTE\checkEx2_testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>10 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,  4 skipped,  </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,39 +104,10 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TH_15_10_2021_TODAY.TCs_HandleTableFunctions" class="method navigator-link" hash-for-method="getRowNumberByValueTest">getRowNumberByValueTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TH_16_10_2021_TODAY.TCs_Exercise2" class="method navigator-link" hash-for-method="findOneFlightTicketTest">findOneFlightTicketTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TH_15_10_2021_TODAY.TCs_HandleTableFunctions" class="method navigator-link" hash-for-method="checkIfItemIsAppeared">checkIfItemIsAppeared</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TH_15_10_2021_TODAY.TCs_HandleTableFunctions" class="method navigator-link" hash-for-method="getTableCellValueTest">getTableCellValueTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TH_15_10_2021_TODAY.TCs_HandleTableFunctions" class="method navigator-link" hash-for-method="getTotalColumnNumberTest">getTotalColumnNumberTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TH_15_10_2021_TODAY.TCs_HandleTableFunctions" class="method navigator-link" hash-for-method="getTotalRowNumberTest">getTotalRowNumberTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -151,85 +122,48 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">TH_15_10_2021_TODAY.TCs_HandleTableFunctions</span>
+              <span class="class-name">TH_16_10_2021_TODAY.TCs_Exercise2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getRowNumberByValueTest">
-                  </a> <!-- getRowNumberByValueTest -->
-                  <span class="method-name">getRowNumberByValueTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Method public void TH_15_10_2021_TODAY.TCs_HandleTableFunctions.getRowNumberByValueTest() throws java.lang.InterruptedException requires a @DataProvider named : none
+                  <a name="findOneFlightTicketTest">
+                  </a> <!-- findOneFlightTicketTest -->
+                  <span class="method-name">findOneFlightTicketTest</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: Given xpath expression &quot;.//option[@value = &quot;September&quot;]&quot; is invalid: WrongDocumentError: Node cannot be used in a document other than the one in which it was created
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;KOP&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12260, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 69b6c708-2391-4986-99b8-6f2249e270cc
+*** Element info: {Using=xpath, value=.//option[@value = &quot;September&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:280)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at TH_16_10_2021_TODAY.GeneralMethods.selectKeyFromDropDownListStatic(GeneralMethods.java:98)
+	at TH_16_10_2021_TODAY.TCs_Exercise2.findOneFlightTicketTest(TCs_Exercise2.java:145)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 24 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">TH_15_10_2021_TODAY.TCs_HandleTableFunctions</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkIfItemIsAppeared">
-                  </a> <!-- checkIfItemIsAppeared -->
-                  <span class="method-name">checkIfItemIsAppeared</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getTableCellValueTest">
-                  </a> <!-- getTableCellValueTest -->
-                  <span class="method-name">getTableCellValueTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getTotalColumnNumberTest">
-                  </a> <!-- getTotalColumnNumberTest -->
-                  <span class="method-name">getTotalColumnNumberTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getTotalRowNumberTest">
-                  </a> <!-- getTotalRowNumberTest -->
-                  <span class="method-name">getTotalRowNumberTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated testcaseSetUp.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(this test scenario will get total number of row of the given page)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">G:\ECLIPSE\workspace\exercises_AUTE\checkIf_testng.xml</span>
+            <span class="header-content">G:\ECLIPSE\workspace\exercises_AUTE\checkEx2_testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -237,8 +171,13 @@ For more information on native dependency injection please refer to https://test
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;003&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TH_15_10_2021_TODAY.TCs_HandleTableFunctions&quot;/&gt;
+      &lt;class name=&quot;TH_16_10_2021_TODAY.TCs_Exercise2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -263,82 +202,18 @@ For more information on native dependency injection please refer to https://test
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">001</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getTotalRowNumberTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">002</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getTotalColumnNumberTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
               <span class="test-group-name">003</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">getRowNumberByValueTest</span>
+                <span class="method-in-group-name">findOneFlightTicketTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">004</span>
+              <span class="test-group-name">Find One Flight Ticket</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">getTableCellValueTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">005</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">checkIfItemIsAppeared</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Check If Item Is Existed</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">checkIfItemIsAppeared</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Input Row, Number and Get Value</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getTableCellValueTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Input Value and Get the Number of Row</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getRowNumberByValueTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Total Number of Column</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getTotalColumnNumberTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Total Number of Row</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getTotalRowNumberTest</span>
+                <span class="method-in-group-name">findOneFlightTicketTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -358,32 +233,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getRowNumberByValueTest')
-data.setCell(0, 2, 'TH_15_10_2021_TODAY.TCs_HandleTableFunctions')
-data.setCell(0, 3, 0);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getTotalColumnNumberTest')
-data.setCell(1, 2, 'TH_15_10_2021_TODAY.TCs_HandleTableFunctions')
-data.setCell(1, 3, 0);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getTableCellValueTest')
-data.setCell(2, 2, 'TH_15_10_2021_TODAY.TCs_HandleTableFunctions')
-data.setCell(2, 3, 0);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkIfItemIsAppeared')
-data.setCell(3, 2, 'TH_15_10_2021_TODAY.TCs_HandleTableFunctions')
-data.setCell(3, 3, 0);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getTotalRowNumberTest')
-data.setCell(4, 2, 'TH_15_10_2021_TODAY.TCs_HandleTableFunctions')
-data.setCell(4, 3, 0);
+data.setCell(0, 1, 'findOneFlightTicketTest')
+data.setCell(0, 2, 'TH_16_10_2021_TODAY.TCs_Exercise2')
+data.setCell(0, 3, 28135);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -398,9 +257,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TH_16_10_2021_TODAY.TCs_Exercise2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clickRegisterLinkTest</span>
+                <br/>
+                <span class="ignored-method-name">logInTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -409,27 +277,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TH_15_10_2021_TODAY.TCs_HandleTableFunctions</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TH_16_10_2021_TODAY.TCs_Exercise2</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getTotalColumnNumberTest</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findOneFlightTicketTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">getTotalRowNumberTest</span>
-                <span class="method-start">10 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">getTableCellValueTest</span>
-                <span class="method-start">13 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkIfItemIsAppeared</span>
-                <span class="method-start">15 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">testCaseTearDown</span>
-                <span class="method-start">17 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

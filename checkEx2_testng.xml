@@ -5,13 +5,13 @@
 
 		<groups>
 			<run>
-				<include name="001"></include>
+				<include name="003"></include>
 			</run>
 		</groups>
 		
 
 		<classes>
-			<class name="TH_15_10_2021_TODAY.TCs_HandleTableFunctions" />
+			<class name="TH_16_10_2021_TODAY.TCs_Exercise2" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
