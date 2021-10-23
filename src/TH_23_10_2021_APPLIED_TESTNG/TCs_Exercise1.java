@@ -1,12 +1,14 @@
-package TH_16_10_2021_TODAY;
+package TH_23_10_2021_APPLIED_TESTNG;
 
 import java.util.concurrent.TimeoutException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+@Listeners(TH_23_10_2021_APPLIED_TESTNG.AppliedTestNGListerner.class)
 
 public class TCs_Exercise1 extends BaseClass{
 	
@@ -37,17 +39,21 @@ public class TCs_Exercise1 extends BaseClass{
 								registerExpTitle, 
 									LNK_BACk_TO_HOME_LOCATOR,
 										homeExpTitle);
-		
+
 		if (ex1.checkIfCaseIsAbleToBePassed==true) {
+			
+			//CALLED THE PASSED OVERRIDDEN METHOD FROM LISTENER
 			Assert.assertFalse(false);
-			System.out.println("\r\r//-----------//-------***TEST CASE 001 IS PASSED! ***------//-----------------//\r\r");
+			
 		}
 		else {
+			
+			//CALLED THE FAILED OVERRIDDEN METHOD FROM LISTENER
 			Assert.assertFalse(true);
-			System.out.println("\r\r//-----------//-------***TEST CASE 001 IS FAILED! ***------//-----------------//\r\r");
+			
 		}
+		ex1.pauseWithTryCatch(2000);
 		testCaseTearDown();
-		
 	}
 
 	@Test(groups= {"Click Support Link", "002"}, 
@@ -70,15 +76,18 @@ public class TCs_Exercise1 extends BaseClass{
 										homeExpTitle);
 		
 		if (ex1.checkIfCaseIsAbleToBePassed==true) {
+			
+			//CALLED THE PASSED OVERRIDDEN METHOD FROM LISTENER
 			Assert.assertFalse(false);
-			System.out.println("\r\r//-----------//-------***TEST CASE 002 IS PASSED! ***------//-----------------//\r\r");
+			
 		}
 		else {
+			
+			//CALLED THE FAILED OVERRIDDEN METHOD FROM LISTENER
 			Assert.assertFalse(true);
-			System.out.println("\r\r//-----------//-------***TEST CASE 002 IS FAILED! ***------//-----------------//\r\r");
+			
 		}
+		ex1.pauseWithTryCatch(2000);
 		testCaseTearDown();
-		
 	}
-	
 }

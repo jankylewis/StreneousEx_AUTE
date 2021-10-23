@@ -1,4 +1,4 @@
-package TH_16_10_2021_TODAY;
+package TH_23_10_2021_APPLIED_TESTNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -42,7 +42,7 @@ public class GeneralMethods {
 						|| checkIfCaseIsAbleToBePassed) {
 				elementLocatedBe4.click();
 				this.registerTitle=dr.getTitle();
-				System.out.println(registerTitle);
+				System.out.println("\r\r"+ registerTitle+ "\r\r");
 			}
 			
 			WebElement elementLocatedAf= dr.findElement(By.xpath(elementLocatorAf));
@@ -50,7 +50,7 @@ public class GeneralMethods {
 				checkIfCaseIsAbleToBePassed=true;
 				elementLocatedAf.click();
 				this.registerTitle= dr.getTitle();
-				System.out.println(registerTitle);
+				System.out.println("\n\n"+ registerTitle+ "\n\n");
 					if (registerTitle.contains(expTitleAf)==true) {
 						checkIfCaseIsAbleToBePassed=true;
 					}

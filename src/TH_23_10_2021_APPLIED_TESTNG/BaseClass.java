@@ -1,4 +1,4 @@
-package TH_16_10_2021_TODAY;
+package TH_23_10_2021_APPLIED_TESTNG;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

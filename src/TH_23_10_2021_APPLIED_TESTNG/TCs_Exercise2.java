@@ -1,11 +1,15 @@
-package TH_16_10_2021_TODAY;
+package TH_23_10_2021_APPLIED_TESTNG;
 
 import java.util.Random;
 import java.util.concurrent.TimeoutException;
-
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+
+@Listeners(TH_23_10_2021_APPLIED_TESTNG.AppliedTestNGListerner.class)
+
 
 public class TCs_Exercise2 extends BaseClass{
 
@@ -88,7 +92,7 @@ public class TCs_Exercise2 extends BaseClass{
 		}
 		
 		ex2.pauseWithTryCatch(500);
-//		testCaseTearDown();
+		testCaseTearDown();
 		
 	}
 	
@@ -114,15 +118,13 @@ public class TCs_Exercise2 extends BaseClass{
 		
 		if (driver.findElement(By.xpath(LBL_LOGIN_SUCCESSFULLY_AF)).getText().equals(expTextAfLoginSuccessfully)==true) {
 			Assert.assertFalse(false);
-			System.out.println("\r\r//-----------//-------***TEST CASE 002 IS PASSED! ***------//-----------------//\r\r");
 		}
 		else {
 			Assert.assertFalse(true);
-			System.out.println("\r\r//-----------//-------***TEST CASE 002 IS FAILED! ***------//-----------------//\r\r");
 		}
 		
 		ex2.pauseWithTryCatch(500);
-//		testCaseTearDown();
+		testCaseTearDown();
 		
 	}
 	

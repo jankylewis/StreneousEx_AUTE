@@ -3,17 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TH_15_10_2021_TODAY.TCs_HandleTableFunctions">
+      <class name="TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise1">
         <methods>
-          <include name="getTotalRowNumberTest"/>
-          <include name="checkIfItemIsAppeared"/>
-          <include name="getRowNumberByValueTest"/>
-          <include name="getTableCellValueTest"/>
-          <include name="getTotalColumnNumberTest"/>
           <include name="testcaseSetUp"/>
+          <include name="clickSupportLinkTest"/>
           <include name="testCaseTearDown"/>
+          <include name="clickRegisterLinkTest"/>
         </methods>
-      </class> <!-- TH_15_10_2021_TODAY.TCs_HandleTableFunctions -->
+      </class> <!-- TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,7 +11,7 @@
 		
 
 		<classes>
-			<class name="TH_16_10_2021_TODAY.TCs_Exercise1" />
+			<class name="TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise1" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

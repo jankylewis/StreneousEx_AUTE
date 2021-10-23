@@ -8,11 +8,11 @@
       </run>
     </groups>
     <classes>
-      <class name="TH_16_10_2021_TODAY.TCs_Exercise2">
+      <class name="TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise2">
         <methods>
           <include name="findOneFlightTicketTest"/>
         </methods>
-      </class> <!-- TH_16_10_2021_TODAY.TCs_Exercise2 -->
+      </class> <!-- TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
