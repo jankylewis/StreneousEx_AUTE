@@ -5,13 +5,13 @@
 
 		<groups>
 			<run>
-				<include name="002"></include>
+				<include name="001"></include>
 			</run>
 		</groups>
 		
 
 		<classes>
-			<class name="TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise1" />
+			<class name="testCases.TCs_Exercise_1" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

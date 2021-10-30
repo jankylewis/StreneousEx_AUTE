@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise1">
+      <class name="TH_30_10_2021_DDT.TC_Login_DataDriven">
         <methods>
           <include name="testcaseSetUp"/>
-          <include name="clickSupportLinkTest"/>
+          <include name="logInTest"/>
           <include name="testCaseTearDown"/>
-          <include name="clickRegisterLinkTest"/>
         </methods>
-      </class> <!-- TH_23_10_2021_APPLIED_TESTNG.TCs_Exercise1 -->
+      </class> <!-- TH_30_10_2021_DDT.TC_Login_DataDriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

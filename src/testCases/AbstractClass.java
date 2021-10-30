@@ -1,4 +1,4 @@
-package TH_9_10_2021_REFINED;
+package testCases;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -12,7 +12,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 
 import com.google.errorprone.annotations.Var;
 
@@ -30,7 +29,7 @@ public class AbstractClass {
 	String baseURL= "http://demo.guru99.com";
 	
 	@BeforeTest
-	public void testcaseSetUp(String baseURL, String br) {
+	public void testCaseSetUp(String baseURL, String br) {
 		if (br== "chrome") {
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver_94.exe");
 			driver= new ChromeDriver();
@@ -63,5 +62,6 @@ public class AbstractClass {
 		driver.manage().deleteAllCookies();
 		driver.quit();
 	}
+	
 	
 }
